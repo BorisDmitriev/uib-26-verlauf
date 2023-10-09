@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cover{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(255, 255, 255, 0.621)), url("images/sunset-815270_1280.jpg");
+    background-repeat:  no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-ball{
+    height: 100vh;
+}
+
+.ball{
+    margin: 20% auto;
+    width: 23rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background:  radial-gradient(rgb(220,220,220), rgb(89, 89, 89)) ;
+}
